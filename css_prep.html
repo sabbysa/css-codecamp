@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>CSS Prep</title>
+    <style>
+
+        p i:first-child{
+            background-color: lightgreen;
+        }
+        p::first-line{
+        background-color:plum;
+        }
+        body{
+            background-color: wheat;
+  
+        } 
+        h1{
+            border-style: solid;
+            border-width: 5px 5px;
+            border-radius: 50px 50px 50px 50px;
+
+        } 
+         p{
+          display:inline-block;
+        }
+        p1{
+      vertical-align: middle;
+       border: 15px double yellow; 
+       padding: 25px 25px 25px 25px;
+       width: 10px;
+    height: 200px;
+    text-align: left;
+    letter-spacing: 10px;
+   line-height: 50px;
+   text-shadow: 2px 2px 5px red;
+
+        }
+        div.images{
+            float:left;
+            margin:auto
+        }
+        div.images:hover{
+            border:1px solid red
+        }
+        div.gallery img{
+            width: 100%;
+            height:auto;
+        }
+        div.desc{
+            padding:15px;
+            text-align: center;
+        }
+        ::selection{
+            color:red;
+            background-color: yellowgreen;
+        }
+         a:hover{
+            color:red;
+        }
+        div.try{
+            border: double yellow 5px;
+            background-color: wheat;
+            clear:both;
+            overflow:auto;
+            display:flex;
+            text-align: center;
+        }
+        img{
+            float:right;
+     
+        }
+        .ddbtn{
+            background-color: cyan;
+
+        }
+        .ddmenu{
+            position:relative;
+            display:inline-block;
+        }
+        .ddcontent{
+            position:absolute;
+            display:none;
+            min-width:150px;
+            box-shadow:25px 0px 20px 0px crimson;
+            overflow:auto
+        }
+        .ddmenu:hover .ddcontent{
+             display:block;
+        }
+        .ddcontent a:hover{
+           background-color:darkgoldenrod;
+        }
+        
+        span.a{
+            display:block;
+            border: double gray 5px;
+            background-color: wheat;
+            height:50px;
+            width:50px;
+            padding:25px;
+        }
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(163, 190, 174);
+    width:auto;
+    /* position:fixed;
+    overflow:auto;
+    height:100%; */
+}
+li:first-child a{
+    display:block;
+    background-color:crimson;
+}
+    </style>
+</head>
+<body>
+<div class="ddmenu">
+    <button class="ddbtn">Drop</button>
+
+    <div class ="ddcontent">
+       <a href="#">Link1</a>
+       <a href="#">Link2</a>
+    </div>
+</div>
+    
+    <h1>Sample CSS</h1>
+    <h2 style="color:blue; border:2px solid red; font-size: larger;">Started CSS Wiki</h2>
+    <a href="www.w3schools.com">link</a>
+
+    <ul>
+        <li><a href="http://whiteboxqa.com/login.php">Menu</a></li>
+        <li><a href="www.yahoo.com">FAQ</a></li>
+    </ul>
+    <div class="try">CSS information can be provided from
+         various sources. These sources can be
+         the web browser, the user and the author.
+          The information from the author can be
+           further classified into inline, mediavarious sources.
+           <img src="C:\Users\abhia\OneDrive\Desktop\images2.jpg" style="width:50px; height:50px"></div>
+<div class="images">
+    <a target="_blank" href="img_5terre.jpg">
+        <img src="img_5terre.jpg" width="600" height="400">
+    </a>
+    <div class="desc">image1</div>
+</div>
+<div class="images">
+    <a target="_blank" href="img_forest.jpg">
+        <img src="img_forest.jpg" width="600" height="400">
+    </a>
+    <div class="desc">image2</div>
+</div>
+           <p>These sources can be
+            the web <i>browser, the user and the author.</i>
+             The information from the author can be
+              further classified into inline, mediavarious sources.These sources can be
+          the web browser, <i>the user and the author.
+          The information from the author can be
+           further classified into inline, mediavarious sources. These sources can be
+           the web browser, the user and the author.</i>
+             The information from the author can be
+              further classified into inline, media</p>
+
+
+           <p>These sources can be
+            the web browser, the user and the author.
+             The information from the author can be
+              further classified into inline, mediavarious sources.<span class=a>Hello!!!</span>These sources can be
+          the web browser, the user and the author.
+           The information from the author can be
+            further classified into inline, mediavarious sources. These sources can be
+            the web browser, the user and the author.
+             The information from the author can be
+              further classified into inline, media</p>
+            <br>
+            <p1>
+             type, importance, selector specificity,
+              rule order, inheritance and property 
+              definition. CSS style information can 
+              be in a separate document or it can 
+              be embedded into an HTML document.
+              </p1>
+
+</body>
+</html>    

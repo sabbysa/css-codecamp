@@ -1,0 +1,11 @@
+fread = open("sample.tx")
+for it in fread:
+print(read)
+
+#count = 0
+#for read in fread:
+#count = count + 1
+#print("no of lines:", count)
+#read()
+
+for line in fread:

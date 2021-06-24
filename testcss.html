@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        div p:hover{
+            background-color: black;
+        }
+
+      .parent{
+          position: relative;
+          border: 5px red solid;
+          height:300px;
+          background-color: powderblue;
+          z-index:10;
+      }
+
+      .child{
+          position:absolute;
+         border: 5px yellow dotted;
+         height:100px;
+        bottom:50px;
+          background-color: rebeccapurple;
+      }
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <p>hello world.</p>
+   
+    <div class="child">
+        happy
+    </div>
+    </div>
+
+
+</body>
+</html>

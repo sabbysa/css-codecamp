@@ -1,0 +1,11 @@
+{
+  "name": "html-prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node htmltry1.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

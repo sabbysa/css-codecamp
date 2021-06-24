@@ -1,0 +1,91 @@
+#flex1{
+    font-size: large;
+    background-color:gray;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    background-color: burlywood;
+    margin:50px;
+    padding: 30px;
+    border:10px solid red;
+    text-align:left;
+}
+
+#sel{
+color:chartreuse;
+background-color: coral;
+font-size: larger;
+padding: 20px;
+}
+a:hover{
+    color: red;
+}
+
+#rad{
+    display:block;
+    background-color: darkkhaki;
+    padding:20px;
+    margin-top:20px;
+    
+}
+.p-box{
+    border:5px solid red;
+position: relative;
+}
+
+.p-box h1{
+position: absolute;
+padding: 15px;
+}
+
+button{
+    position:fixed;
+    top:300px;
+}
+
+#navbar{
+    background-color:darkgray;
+    color: blueviolet;
+   
+}
+#navbar ul{
+    padding:10px;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+  
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 10px;
+    color: darkgreen;
+}
+
+
+
+/* ul li:nth-child(2){
+background-color: darkmagenta;
+} */
